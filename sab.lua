@@ -1,21 +1,21 @@
 script_key="BYvfnaCXOEdoyNWGmkkjcOZkMMLiaOYY";
-setfpscap(8)
+setfpscap(15)
 
 getgenv().sabConfig = {
     -- General
-    KICK_PLAYER_LOBBY_AMOUNT = 7,  -- kick from game if 3+ players in lobby
+    KICK_PLAYER_LOBBY_AMOUNT = 99,  -- kick from game if 99+ players in lobby
     CHASE_BRAINROT = true,  -- true -> chase | false -> stand at end of conveyor
     MAX_CASH = math.huge,  -- can add number 999999, math.huge = always collect
-    COLLECT_CASH_COOLDOWN = 120,
-    LOCK_GATE = false,
-    
+    COLLECT_CASH_COOLDOWN = 180,
+    LOCK_GATE = true,
+
     -- Brainrot
-    --PRIORITY_BRAINROT = { "Secret Lucky Block", "Admin Lucky Block", "Taco Lucky Block" },  -- Keep brainrot & priority buy
+    PRIORITY_BRAINROT = { "Secret Lucky Block", "Admin Lucky Block", "Taco Lucky Block" },  -- Keep brainrot & priority buy
     OPEN_LUCKY_BLOCK = { "Mythic Lucky Block" },
 
     -- Tools
-    AUTO_BUY_TOOL = { "Speed Coil" },
-    EQUIP_TOOL = { "Speed Coil" },  -- Equip left to right
+    AUTO_BUY_TOOL = { "Gummy Slap", "Splatter Slap", "Glitch Slap", "Galaxy Slap", "Nuclear Slap", "Flame Slap", "Dark Matter Slap", "Ruby Slap", "Emerald Slap", "Diamond Slap", "Gold Slap", "Iron Slap", "Slap", "Speed Coil" },
+    EQUIP_TOOL = { "Gummy Slap", "Splatter Slap", "Glitch Slap", "Galaxy Slap", "Nuclear Slap", "Flame Slap", "Dark Matter Slap", "Ruby Slap", "Emerald Slap", "Diamond Slap", "Gold Slap", "Iron Slap", "Slap", "Speed Coil" },  -- Equip left to right
 
     -- Rebirth
     MAX_REBIRTH = 6,
