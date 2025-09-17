@@ -10,7 +10,7 @@ getgenv().sabConfig = {
     LOCK_GATE = true,
 
     -- Brainrot
-    PRIORITY_BRAINROT = { "Secret Lucky Block", "Admin Lucky Block", "Taco Lucky Block" },  -- Keep brainrot & priority buy
+    PRIORITY_BRAINROT = { "Secret Lucky Block", "Admin Lucky Block"},  -- Keep brainrot & priority buy
     OPEN_LUCKY_BLOCK = { "Mythic Lucky Block" },
 
     -- Tools
