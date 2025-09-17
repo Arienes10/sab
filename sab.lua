@@ -4,9 +4,9 @@ setfpscap(8)
 getgenv().sabConfig = {
     -- General
     KICK_PLAYER_LOBBY_AMOUNT = 7,  -- kick from game if 3+ players in lobby
-    CHASE_BRAINROT = false,  -- true -> chase | false -> stand at end of conveyor
+    CHASE_BRAINROT = true,  -- true -> chase | false -> stand at end of conveyor
     MAX_CASH = math.huge,  -- can add number 999999, math.huge = always collect
-    COLLECT_CASH_COOLDOWN = 300,
+    COLLECT_CASH_COOLDOWN = 120,
     LOCK_GATE = false,
     
     -- Brainrot
