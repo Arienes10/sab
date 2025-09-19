@@ -3,6 +3,7 @@ setfpscap(15)
 
 getgenv().sabConfig = {
     -- General
+    CLONE_PRIVATE_SERVER = true,
     KICK_PLAYER_LOBBY_AMOUNT = 7,  -- kick from game if 3+ players in lobby
     CHASE_BRAINROT = true,  -- true -> chase | false -> stand at end of conveyor
     MAX_CASH = math.huge,  -- can add number 999999, math.huge = always collect
