@@ -1,5 +1,5 @@
 script_key="BYvfnaCXOEdoyNWGmkkjcOZkMMLiaOYY";
-setfpscap(8)
+setfpscap(12)
 
 getgenv().sabConfig = {
     -- General
