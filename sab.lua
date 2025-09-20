@@ -9,7 +9,6 @@ getgenv().sabConfig = {
     MAX_CASH = math.huge,  -- can add number 999999, math.huge = always collect
     COLLECT_CASH_COOLDOWN = 120,
     LOCK_GATE = false,
-    PRIVATE_SERVER = true,
     
     -- Brainrot
     PRIORITY_BRAINROT = { "Secret Lucky Block", "Admin Lucky Block", "Taco Lucky Block" },  -- Keep brainrot & priority buy
