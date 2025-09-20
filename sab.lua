@@ -10,6 +10,7 @@ getgenv().sabConfig = {
     COLLECT_CASH_COOLDOWN = 120,
     LOCK_GATE = false,
     
+    
     -- Brainrot
     PRIORITY_BRAINROT = { "Secret Lucky Block", "Admin Lucky Block", "Taco Lucky Block" },  -- Keep brainrot & priority buy
     OPEN_LUCKY_BLOCK = { "Mythic Lucky Block" },
@@ -19,7 +20,7 @@ getgenv().sabConfig = {
     EQUIP_TOOL = { "Speed Coil" },  -- Equip left to right
 
     -- Rebirth
-    MAX_REBIRTH = 9,
+    MAX_REBIRTH = 6,
     KICK_AFTER_REBIRTH = false,
     BRAINROT_RARITY_STOP_REBIRTH = { "Secret", "Admin", "OG" },
     IGNORE_BRAINROT_GENERATION_STOP_REBIRTH = 10000000,  -- Stop Rebirth if have 300k+/s brainrot 
