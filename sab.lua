@@ -1,11 +1,11 @@
 script_key="BYvfnaCXOEdoyNWGmkkjcOZkMMLiaOYY";
-setfpscap(15)
+setfpscap(12)
 
 getgenv().sabConfig = {
     -- General
     CLONE_PRIVATE_SERVER = true,
     KICK_PLAYER_LOBBY_AMOUNT = 2,  -- kick from game if 3+ players in lobby
-    CHASE_BRAINROT = true,  -- true -> chase | false -> stand at end of conveyor
+    CHASE_BRAINROT = false,  -- true -> chase | false -> stand at end of conveyor
     MAX_CASH = math.huge,  -- can add number 999999, math.huge = always collect
     COLLECT_CASH_COOLDOWN = 120,
     LOCK_GATE = false,
