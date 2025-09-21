@@ -4,7 +4,7 @@ setfpscap(15)
 getgenv().sabConfig = {
     -- General
     CLONE_PRIVATE_SERVER = true,
-    KICK_PLAYER_LOBBY_AMOUNT = 3,  -- kick from game if 3+ players in lobby
+    KICK_PLAYER_LOBBY_AMOUNT = 2,  -- kick from game if 3+ players in lobby
     CHASE_BRAINROT = false,  -- true -> chase | false -> stand at end of conveyor
     MAX_CASH = math.huge,  -- can add number 999999, math.huge = always collect
     COLLECT_CASH_COOLDOWN = 300,
@@ -22,7 +22,7 @@ getgenv().sabConfig = {
     -- Rebirth
     MAX_REBIRTH = 10,
     KICK_AFTER_REBIRTH = false,
-    --BRAINROT_RARITY_STOP_REBIRTH = { "Secret", "Admin", "OG" },
+    BRAINROT_RARITY_STOP_REBIRTH = { "Secret", "Admin", "OG" },
     IGNORE_BRAINROT_GENERATION_STOP_REBIRTH = 10000000,  -- Stop Rebirth if have 300k+/s brainrot 
 
     -- Webhook
