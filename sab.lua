@@ -20,7 +20,7 @@ getgenv().sabConfig = {
     EQUIP_TOOL = { "Speed Coil" },  -- Equip left to right
 
     -- Rebirth
-    MAX_REBIRTH = 6,
+    MAX_REBIRTH = 10,
     KICK_AFTER_REBIRTH = false,
     BRAINROT_RARITY_STOP_REBIRTH = { "Secret", "Admin", "OG" },
     IGNORE_BRAINROT_GENERATION_STOP_REBIRTH = 10000000,  -- Stop Rebirth if have 300k+/s brainrot 
