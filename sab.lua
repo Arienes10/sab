@@ -8,7 +8,7 @@ getgenv().sabConfig = {
     CHASE_BRAINROT = false,  -- true -> chase | false -> stand at end of conveyor
     MAX_CASH = math.huge,  -- can add number 999999, math.huge = always collect
     COLLECT_CASH_COOLDOWN = 300,
-    LOCK_GATE = false,
+    LOCK_GATE = true,
     
     
     -- Brainrot
