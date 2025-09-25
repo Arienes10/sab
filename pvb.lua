@@ -8,7 +8,7 @@ getgenv().pvbConfig = {
 
     BUY_SEED_SHOP = {["Cactus"] = 5, ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio"},
     KEEP_SEED = {},
-    KEEP_PLANT = {},
+    KEEP_PLANT = { "Tomatrio" },
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
     KEEP_BRAINROT = {},
     KEEP_BRAINROT_RARITY = {"Secret", "Limited"},
@@ -20,7 +20,7 @@ getgenv().pvbConfig = {
     BRAINROT_WEBHOOK_URL = "https://discord.com/api/webhooks/1408456072309772440/30JDnShUvXtSGPTMF1LmrR80fLk_dWQku2QnSSglThJ4chAHjUP7CIVDjCnMnqtfJWrU",
     DISCORD_ID = "622997465607700510",
     NOTIFY_RARITY = { "Secret", "Limited" },
-    NOTIFY_NAME = {},
+    NOTIFY_NAME = { "Tomatrio" },
     NOTIFY_WEIGHT = math.huge,
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = true,
