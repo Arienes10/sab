@@ -1,4 +1,4 @@
-script_key="";
+script_key="BYvfnaCXOEdoyNWGmkkjcOZkMMLiaOYY";
 
 getgenv().pvbConfig = {
     MAX_FPS = 3,  -- This will override setfpscap()
