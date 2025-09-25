@@ -1,6 +1,8 @@
 script_key="BYvfnaCXOEdoyNWGmkkjcOZkMMLiaOYY";
 
 getgenv().pvbConfig = {
+    AUTO_UPDATE_RESTART = true,
+    ATTACK_BAT = true,
     MAX_FPS = 3,  -- This will override setfpscap()
     LOW_CPU = true,
     MAX_REBIRTH = 2,
