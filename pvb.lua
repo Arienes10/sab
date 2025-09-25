@@ -12,7 +12,7 @@ getgenv().pvbConfig = {
     KEEP_SEED = {},
     KEEP_PLANT = { "Tomatrio" },
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT = {},
+    KEEP_BRAINROT = { "Tralalelo Tralala", "Bombini Gussini" },
     KEEP_BRAINROT_RARITY = {"Secret", "Limited"},
 
     SELL_BRAINROT_DELAY = 20,
@@ -22,7 +22,7 @@ getgenv().pvbConfig = {
     BRAINROT_WEBHOOK_URL = "https://discord.com/api/webhooks/1408456072309772440/30JDnShUvXtSGPTMF1LmrR80fLk_dWQku2QnSSglThJ4chAHjUP7CIVDjCnMnqtfJWrU",
     DISCORD_ID = "622997465607700510",
     NOTIFY_RARITY = { "Secret", "Limited" },
-    NOTIFY_NAME = { "Tomatrio" },
+    NOTIFY_NAME = { "Tomatrio", "Tralalelo Tralala", "Bombini Gussini" },
     NOTIFY_WEIGHT = math.huge,
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = true,
