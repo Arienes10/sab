@@ -10,7 +10,6 @@ getgenv().pvbConfig = {
     FUSE_PLANT = {"Mr Carrot"},
 
     BUY_SEED_SHOP = {["Cactus"] = 5, ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio"},
-    KEEP_SEED = {},
     KEEP_PLANT = { "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio" },
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
     KEEP_BRAINROT = { "Tralalelo Tralala", "Bombini Gussini" },
@@ -25,7 +24,6 @@ getgenv().pvbConfig = {
     NOTIFY_RARITY = { "Secret", "Limited" },
     NOTIFY_NAME = { "Mr Carrot", "Tomatrio", "Tralalelo Tralala", "Bombini Gussini" },
     NOTIFY_WEIGHT = math.huge,
-    WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
 }
