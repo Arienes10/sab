@@ -22,7 +22,7 @@ getgenv().pvbConfig = {
 
     -- Webhook
     BRAINROT_WEBHOOK_URL = "https://discord.com/api/webhooks/1408456072309772440/30JDnShUvXtSGPTMF1LmrR80fLk_dWQku2QnSSglThJ4chAHjUP7CIVDjCnMnqtfJWrU",
-    DISCORD_ID = "622997465607700510",
+    DISCORD_ID = "1387823456518934528",
     NOTIFY_RARITY = { "Secret", "Limited" },
     NOTIFY_NAME = { "Mr Carrot", "Tomatrio", "Tralalelo Tralala", "Bombini Gussini" },
     NOTIFY_WEIGHT = math.huge,
