@@ -12,7 +12,6 @@ getgenv().pvbConfig = {
     BUY_SEED_SHOP = {["Cactus"] = 5, ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio"},
     KEEP_PLANT = { "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio" },
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT = { "Tralalelo Tralala", "Bombini Gussini" },
     KEEP_BRAINROT_RARITY = {"Secret", "Limited"},
 
     SELL_BRAINROT_DELAY = 30,
