@@ -7,6 +7,7 @@ getgenv().pvbConfig = {
     MAX_REBIRTH = 99,
     FROST_GRENADE_TARGET_MAX_HP = 100000,  -- Use frost grenade 100k+ hp brainrot
     BRAINROT_RARITY_STOP_REBIRTH = {},
+    FORCE_REBIRTH_IGNORE_KEEP_BRAINROT = true,  -- Ignore KEEP_BRAINROT related config until max rebirth
     OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
     FUSE_PLANT = {"Mr Carrot"},
 
@@ -15,7 +16,7 @@ getgenv().pvbConfig = {
     KEEP_SEED = {},
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
     KEEP_BRAINROT_MONEY_PER_SECOND = 10000,  -- Number
-    KEEP_BRAINROT_RARITY = {},
+    KEEP_BRAINROT_RARITY = {"Secret", "Limited"},
 
     SELL_BRAINROT_DELAY = 30,
     SELL_PLANT_DELAY = 30,
