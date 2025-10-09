@@ -30,7 +30,7 @@ getgenv().pvbConfig = {
     GIFT_USERNAME = {"jlneon801", "jlneon802", "jlneon803", "", "", ""},  -- Add username "username1", "username2"  -- Gift brainrot via name
     GIFT_BRAINROT_MONEY_PER_SECOND = 1000000,  -- $10k+/s -> Gift
     GIFT_PLANT = {"Shroombino", "Mango", "Troll Mango"},  -- Gift plant via name
-    GIFT_PLANT_DAMAGE = 5000000,  -- 100k+ Damage -> Gift
+    GIFT_PLANT_DAMAGE = 500000,  -- 100k+ Damage -> Gift
     GIFTING_COOLDOWN = 5,
 
     -- Webhook
