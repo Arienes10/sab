@@ -25,6 +25,14 @@ getgenv().pvbConfig = {
     SELL_BRAINROT_DELAY = 30,  -- Delay for "sell all" brainrot
     SELL_PLANT_DELAY = 30,  -- "Delay for "sell all" plant
 
+    -- Gift
+    KICK_AFTER_GIFTED_ALL = false,
+    GIFT_USERNAME = {"jlneon801", "jlneon802", "jlneon803", "", "", ""},  -- Add username "username1", "username2"  -- Gift brainrot via name
+    GIFT_BRAINROT_MONEY_PER_SECOND = 1000000,  -- $10k+/s -> Gift
+    GIFT_PLANT = {"Shroombino", "Mango", "Troll Mango"},  -- Gift plant via name
+    GIFT_PLANT_DAMAGE = 5000000,  -- 100k+ Damage -> Gift
+    GIFTING_COOLDOWN = 5,
+
     -- Webhook
     BRAINROT_WEBHOOK_URL = "https://discord.com/api/webhooks/1408456072309772440/30JDnShUvXtSGPTMF1LmrR80fLk_dWQku2QnSSglThJ4chAHjUP7CIVDjCnMnqtfJWrU",
     DISCORD_ID = "1387823456518934528",
