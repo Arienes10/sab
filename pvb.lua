@@ -31,7 +31,7 @@ getgenv().pvbConfig = {
     KICK_AFTER_GIFTED_ALL = false,
     GIFT_USERNAME = {"jlneon801", "jlneon802", "jlneon803", "borsamarius801", "Brontoto1000", "xvhakz21", "xvhakz24"},  -- Add username "username1", "username2"  -- Gift brainrot via name
     GIFT_BRAINROT_MONEY_PER_SECOND = 1000000,  -- $10k+/s -> Gift
-    GIFT_PLANT = {"Shroombino", "Mango", "Troll Mango"},  -- Gift plant via name
+    GIFT_PLANT = {"King Limone", "Mango", "Troll Mango"},  -- Gift plant via name
     GIFT_PLANT_DAMAGE = 500000,  -- 100k+ Damage -> Gift
     GIFTING_COOLDOWN = 5,
 
