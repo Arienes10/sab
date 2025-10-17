@@ -1,9 +1,9 @@
 script_key="BYvfnaCXOEdoyNWGmkkjcOZkMMLiaOYY";
-setfpscap(15)
+setfpscap(30)
 
 getgenv().sabConfig = {
     -- General
-    CLONE_PRIVATE_SERVER = false,
+    CLONE_PRIVATE_SERVER = true,
     KICK_PLAYER_LOBBY_AMOUNT = 99,  -- kick from game if 3+ players in lobby
     CHASE_BRAINROT = false,  -- true -> chase | false -> stand at end of conveyor
     MAX_CASH = math.huge,  -- can add number 999999, math.huge = always collect
@@ -20,7 +20,7 @@ getgenv().sabConfig = {
     EQUIP_TOOL = { "Speed Coil" },  -- Equip left to right
 
     -- Rebirth
-    MAX_REBIRTH = 6,
+    MAX_REBIRTH = 15,
     KICK_AFTER_REBIRTH = false,
     BRAINROT_RARITY_STOP_REBIRTH = { "Secret" },
     IGNORE_BRAINROT_GENERATION_STOP_REBIRTH = 10000000,  -- Stop Rebirth if have 300k+/s brainrot 
