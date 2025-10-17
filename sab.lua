@@ -22,7 +22,7 @@ getgenv().sabConfig = {
     -- Rebirth
     MAX_REBIRTH = 15,
     KICK_AFTER_REBIRTH = false,
-    BRAINROT_RARITY_STOP_REBIRTH = { "Secret" },
+    BRAINROT_RARITY_STOP_REBIRTH = {},
     IGNORE_BRAINROT_GENERATION_STOP_REBIRTH = 10000000,  -- Stop Rebirth if have 300k+/s brainrot 
 
     -- Webhook
